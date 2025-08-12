@@ -1,0 +1,49 @@
+#title>img,
+#title>h1 {
+    display: inline-block;
+}
+
+body {
+    background-color: bisque;
+    display: grid;
+}
+
+
+#title {
+    width: max-content;
+    margin: auto;
+}
+
+ul {
+    width: fit-content;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    padding: 20px 40px;
+}
+
+#list {
+    width: max-content;
+    padding: 15px;
+    margin: auto;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+ul {
+    box-shadow: 5px 5px;
+}
+
+#main {
+    background-color: beige;
+    width: max-content;
+    height: max-content;
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -7.5px -10px;
+}
+

@@ -1,0 +1,77 @@
+body{
+    background-color: azure;
+}
+
+.first > *{
+    display: inline;
+    text-decoration: none;
+
+}
+
+h1 {
+    font: bold Arial;
+    text-decoration: underline;
+    font-size: 36px;
+    padding: 15px 25px;
+    margin: 5px auto;
+    margin-bottom: 50px;
+    color: rgb(36, 9, 9);
+}
+
+.pic, .image-container > p{
+    margin: auto;
+}
+
+.intro{
+    width: 100%;
+    text-align: center;
+}
+
+.pic {
+    display: block;
+    box-shadow: 3px 3px 2px 3px #423f32 ;
+    margin-bottom: 10px;
+}
+
+.image-container > p{
+    width: 384px;
+    text-align: center;
+}
+
+.ing{
+    background-color: rgb(242, 192, 173);
+    border-radius: 5%;
+    width: max-content;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.ing > h2{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 56px;
+    padding-top: 10px;
+}
+
+.ing > ul > li{
+    margin-bottom: 3px;
+}
+
+.ing > ul:last-child{
+    padding-bottom: 10px;
+}
+
+.steps{
+    background-color: cornsilk;
+    border-radius: 5%;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.steps > h2{
+    text-align: center;
+
+}
